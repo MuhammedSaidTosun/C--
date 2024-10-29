@@ -1,0 +1,3 @@
+/home/cosmos/Desktop/VsCode/C++/build/CMakeFiles/C++.dir
+/home/cosmos/Desktop/VsCode/C++/build/CMakeFiles/edit_cache.dir
+/home/cosmos/Desktop/VsCode/C++/build/CMakeFiles/rebuild_cache.dir

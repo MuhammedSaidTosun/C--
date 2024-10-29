@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/cosmos/Desktop/VsCode/C++/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/C++.dir/main.cpp.o -c /home/cosmos/Desktop/VsCode/C++/main.cpp",
+  "file": "/home/cosmos/Desktop/VsCode/C++/main.cpp",
+  "output": "CMakeFiles/C++.dir/main.cpp.o"
+}
+]
