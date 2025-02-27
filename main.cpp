@@ -1,7 +1,10 @@
 #include <iostream>
+#include <sqlite3.h>
 
 int main (){
 
+
+    
     int digit;
     bool isFinished = false;
 
@@ -21,18 +24,22 @@ int main (){
             std::cout << "Geçersiz rakam girdiniz. Lütfen tekrar deneyiniz." << std::endl;
         }    
         else if (digit == 0){
+              //hesapların depolanacağı bir fonksiyon oluştur
             std::cout << "Hesabınız oluşturuluyor..." << std::endl;
         }
         else if (digit == 1){
+              //oluşturulan hesapların bilgilerinin çekileceği bir fonksiyon yaz OOP kısmı 
             std::cout << "Hesaba giriş yapılıyor..." << std::endl;
         }
         else if (digit == 2){
             std::cout << "Hesabınız siliniyor..." << std::endl;
         }
         else if (digit == 3){
+            //müşteri hizmetlerini ya yapay zeka gibi soru cevap şeklinde ya da sorunun ve cevabın belli olduğu bir şey yap
             std::cout << "Müşteri hizmetlerine bağlanıyorsunuz..." << std::endl;   
         }
         else if (digit == 4){
+            //mevcut hesaptan çıkış yapıp silmemeyi öğren
             std::cout << "Çıkış yapılıyor..." << std::endl;
             isFinished = true;
         }
